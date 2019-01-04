@@ -1,0 +1,10 @@
+11:30 18/12/2012
+----------------
+
+- sharepoint workspace, offline kolaborasi, ketika terkoneksi ke web bs lgsg update, servicenya diaktifkan di central admin
+- tergantung storage
+- lambat: spek PC user, bandwidth srv portal, upstream bw kemlu, platform hosting server apakah resourcesnya tercukupi atau tidak-cek storage; memory; resources I/O; ideal kah?, cek app
+- security checker, memeriksa hak akses user portal
+- gruping user portal
+- semua list dalam 1 tabel
+- site permission masing2 perwakilan

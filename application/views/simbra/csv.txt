@@ -1,0 +1,3 @@
+ID||KD_BERITA||PERIHAL_BERITA||DERAJAT||TANGGAL||NAMA_PERWAKILAN
+1||B-00020||Perihal berita 1||111||2014-02-20||Brussel||
+2||B-00021||Perihal berita 2||222||2014-02-20||Jakarta||

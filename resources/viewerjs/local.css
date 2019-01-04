@@ -1,0 +1,6 @@
+/* This is just a sample file with CSS rules. You should write your own @font-face declarations
+ * to add support for your desired fonts.
+ */
+
+#download { display: inline-block;} 
+#about {display:none;}
