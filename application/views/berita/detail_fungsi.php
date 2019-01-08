@@ -315,7 +315,7 @@ if (!empty($username)) {
                                                 </div>
                                                 <div id="detaildisposisipreview" class="panel-collapse collapse">
                                                     <div class="portlet-body">
-                                                        <iframe id="iframe_detail" height="765px" width="100%" src="<?= base_url(); ?>resources/viewerjs/#./files/<?php echo $berita[0]['berita_file']; ?>"></iframe>
+                                                        <iframe id="iframe_detail" height="765px" width="100%" src="<?= base_url(); ?>/files/<?php echo $berita[0]['berita_file']; ?>"></iframe>
 
                                                     </div>
                                                 </div>

@@ -269,7 +269,7 @@ if (!empty($username)) {
                     </div>
                     <div id="previeweditarsipberita" class="panel-collapse collapse in">
                         <div class="portlet-body">
-                            <iframe height="765px" width="100%" src="<?= base_url(); ?>resources/viewerjs/#./files/<?php echo $berita[0]['berita_file']; ?>"></iframe>
+                            <iframe height="765px" width="100%" src="<?= base_url(); ?>files/<?php echo $berita[0]['berita_file']; ?>"></iframe>
                         </div>
                     </div>
                 </div>

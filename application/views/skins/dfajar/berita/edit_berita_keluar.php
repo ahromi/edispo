@@ -176,7 +176,7 @@ if (!empty($username)) {
                     </div>
                     <div id="previeweditarsipberita" class="panel-collapse collapse in">
                         <div class="portlet-body">
-                            <iframe height="765px" width="100%" src="<?= base_url().'resources/viewerjs/#./files/' . $berita[0]['arsip_kd'] . '_' . str_replace("/", "-", $berita[0]['berita_kd']) . '.pdf'; ?>"></iframe>
+                            <iframe height="765px" width="100%" src="<?= base_url().'files/' . $berita[0]['arsip_kd'] . '_' . str_replace("/", "-", $berita[0]['berita_kd']) . '.pdf'; ?>"></iframe>
                         </div>
                     </div>
                 </div>
