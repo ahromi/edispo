@@ -8,7 +8,7 @@ class Detail extends CI_Controller {
         if (!empty($_POST['EDIT'])) {
             $note = "";
             //zzzzzzzzzzzzzzzzzzzzzzzzz
-            if ($_POST['jenis_nama'] == "" || $_POST['jenis_nama'] == "0") {
+            if ($_POST['instruksi_nama'] == "" || $_POST['instruksi_nama'] == "0") {
 
                 $this->session->set_flashdata('notifikasi', "<p>Terjadi Kesalahan: </p><ul><li><b>Instruksi</b> Harus diisi</li> </p>");
                 $this->session->set_flashdata('status', 'form-message error');
