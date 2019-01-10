@@ -54,9 +54,9 @@ if (!empty($username)) {
                                                     <td><?= $opset + $key + 1; ?></td>
                                                    <!-- <td><a href="javascript: void(0)"><?= $val['instruksi_kd']; ?></a></td>-->
                                                     <td><a href="javascript: void(0)" class="agreen"><?= $val['instruksi_nama']; ?></a></td>
-                                                    <td><? echo $val['instruksi_status']; ?></td>
+                                                    <td><?= $val['instruksi_status']; ?></td>
                                                     <td><a href="<?= base_url(); ?>index.php/instruksi/detail/id/<?= $val['instruksi_kd']; ?>" class="tiptip-top" title="Detail"><img src="<?= base_url(); ?>resources/images/icon_view.png" alt="Detail" /></a></td>
-                                                    <td><a href="<?= base_url(); ?>index.php/instruksi/status/id/<?= $val['instruksi_kd']; ?>/<?php echo $val['instruksi_status']; ?>" class="tiptip-top" title="Delete"><img src="<?= base_url(); ?>resources/images/<?php echo $val['instruksi_status']; ?>.png" alt="change status" /></a></td>
+                                                    <td><a href="<?= base_url(); ?>index.php/instruksi/status/id/<?= $val['instruksi_kd']; ?>/<?php echo $val['instruksi_status']; ?>" class="tiptip-top" title="Ubah Status"><img src="<?= base_url(); ?>resources/images/<?php echo $val['instruksi_status']; ?>.png" alt="change status" /></a></td>
                                                 </tr>
                                             <?php }
                                             ?>
