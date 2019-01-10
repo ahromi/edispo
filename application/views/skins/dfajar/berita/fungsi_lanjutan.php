@@ -2,7 +2,7 @@
     <table width="100%">
         <tr>
             <td>
-                Lakukan Disposisi Lanjutan bagi Pelaksana Fungsi?
+                Lakukan Disposisi Lanjutan bagi Staff Fungsi?
             </td>
         </tr>
         <tr>
@@ -16,7 +16,7 @@
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th width="50%" align="center">Pelaksana Fungsi:</th>
+                            <th width="50%" align="center">Staff Fungsi:</th>
                             <th width="50%" align="center">Isi Instruksi:</th>
                         </tr>
                     </thead>
@@ -51,7 +51,7 @@
 
     <div class="row" id="lanjutDispoPanel2" style="display:none;">
         <div class="col-xs-12">
-            Catatan Disposisi kepada Pelaksana Fungsi:<br />
+            Catatan Disposisi kepada Staff Fungsi:<br />
             <textarea name="disposisi_lanjutan_catatan" class="form-control" placeholder=""></textarea><br />
         </div>
     </div>
