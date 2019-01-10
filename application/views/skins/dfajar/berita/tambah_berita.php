@@ -105,7 +105,7 @@ if (!empty($username)) {
                                             <input id="instansi_pengirim" type="text" name="perwakilan" placeholder="Ketik nama instansi pengirim" class="form-control">
                                         </div>
                                         <div class="col-xs-4">
-                                            <!--<a href="#" data-toggle="modal" data-target="#tambahInstansiBaru" class="btn btn-link">Tambah Instansi</a>-->
+                                            <a href="#" data-toggle="modal" data-target="#tambahInstansiBaru" class="btn btn-link">Tambah Instansi</a>
                                             <!-- Flex Modal -->
                                             <div class="modal modal-flex fade" id="tambahInstansiBaru" tabindex="-1" role="dialog" aria-labelledby="flexModalLabel" aria-hidden="true">
                                                 <div class="modal-dialog">
@@ -213,7 +213,7 @@ if (!empty($username)) {
                             <?php
                             if ($this->session->userdata('SESSION_HOME_STAFF') == "Y") {
                                 ?>
-                                <div class="form-group">
+                                <!--<div class="form-group">
                                     <label class="col-sm-2 control-label">Perwakilan CC</label>
                                     <div class="col-sm-10">
                                         <label class="checkbox-inline">
@@ -226,7 +226,7 @@ if (!empty($username)) {
                                             <input name="pwk_code[]" type="checkbox" value="SFC">San Francisco
                                         </label>
                                     </div>
-                                </div>
+                                </div>-->
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label" for="arsip_kd">Halaman</label>
                                     <div class="col-sm-10">
